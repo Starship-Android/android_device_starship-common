@@ -1,0 +1,10 @@
+#!/system/bin/sh
+
+
+mount -o remount,rw /system;
+
+rm -rf /system/etc/init.d/appremove
+
+mount -o remount,ro /system;
+
+
