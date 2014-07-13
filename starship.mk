@@ -21,12 +21,12 @@
 
 #init.d
 PRODUCT_COPY_FILES += \
-    device/lge/hammerhead/starship/appremove:system/etc/init.d/appremove \
-    device/lge/hammerhead/starship/cleanup:system/etc/init.d/cleanup
+    device/starship-common/appremove:system/etc/init.d/appremove \
+    device/starship-common/cleanup:system/etc/init.d/cleanup
 
 #Bootanimation
 PRODUCT_COPY_FILES += \
-    device/lge/hammerhead/starship/bootanimation.zip:system/media/bootanimation.zip
+    device/starship-common/bootanimation.zip:system/media/bootanimation.zip
 
 
 PRODUCT_PROPERTY_OVERRIDES += \
