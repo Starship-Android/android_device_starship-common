@@ -29,7 +29,12 @@ PRODUCT_COPY_FILES += \
     device/starship-common/bootanimation.zip:system/media/bootanimation.zip
 
 
+DEVICE_PACKAGE_OVERLAYS := \
+    device/starship-common/overlay
+
+
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.supplicant_scan_interval=180
+
 
 
