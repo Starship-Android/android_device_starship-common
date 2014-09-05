@@ -30,24 +30,19 @@ PRODUCT_COPY_FILES += \
 
 #Apps
 PRODUCT_COPY_FILES += \
-    device/starship-common/apps/app/DeskClockGoogle.apk:system/app/DeskClockGoogle.apk \
+    device/starship-common/apps/app/com.google.android.launcher-1.apk:system/priv-app/com.google.android.launcher-1.apk \
+    device/starship-common/apps/app/com.google.android.launcher-2.apk:system/priv-app/com.google.android.launcher-2.apk \
     device/starship-common/apps/app/HPPrintPlugin.apk:system/app/HPPrintPlugin.apk \
-    device/starship-common/apps/app/com.android.chrome-1.apk:system/app/com.android.chrome-1.apk \
-    device/starship-common/apps/app/com.google.android.music-2.apk:system/app/com.google.android.music-2.apk \
-    device/starship-common/apps/app/com.google.android.calendar-1.apk:system/app/com.google.android.calendar-1.apk \
-    device/starship-common/apps/app/com.google.android.gms-1.apk:system/app/com.google.android.gms-1.apk 
+    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1.apk:system/priv-app/com.google.android.googlequicksearchbox-1.apk \
+    device/starship-common/apps/app/com.google.android.googlequicksearchbox-2.apk:system/priv-app/com.google.android.googlequicksearchbox-2.apk \
+    device/starship-common/apps/app/com.google.android.calendar-1.apk:system/app/com.google.android.calendar-1.apk
+ 
 
-#App-libs
+#lib
 PRODUCT_COPY_FILES += \
-    device/starship-common/apps/app-libs/com.google.android.gms-1/libAppDataSearch.so:system/app-libs/libAppDataSearch.so \
-    device/starship-common/apps/app-libs/com.google.android.gms-1/libconscrypt_gmscore_jni.so:system/app-libs/libconscrypt_gmscore_jni.so \
-    device/starship-common/apps/app-libs/com.google.android.gms-1/libgames_rtmp_jni.so:system/app-libs/libgames_rtmp_jni.so \
-    device/starship-common/apps/app-libs/com.google.android.gms-1/libgcastv2_base.so:system/app-libs/libgcastv2_base.so \
-    device/starship-common/apps/app-libs/com.google.android.gms-1/libgcastv2_support.so:system/app-libs/libgcastv2_support.so \
-    device/starship-common/apps/app-libs/com.google.android.gms-1/libgmscore.so:system/app-libs/libgmscore.so \
-    device/starship-common/apps/app-libs/com.google.android.gms-1/libjgcastservice.so:system/app-libs/libjgcastservice.so \
-    device/starship-common/apps/app-libs/com.google.android.gms-1/libocrclient.so:system/app-libs/libocrclient.so \
-    device/starship-common/apps/app-libs/com.android.chrome-1/libchrome.1985.131.so:system/app-libs/libchrome.1985.131.so 
+    device/starship-common/apps/lib/com.google.android.googlequicksearchbox-2/libgoogle_hotword_jni.so:system/app-lib/libgoogle_hotword_jni.so \
+    device/starship-common/apps/lib/com.google.android.googlequicksearchbox-2/libgoogle_recognizer_jni_l.so:system/app-lib/libgoogle_recognizer_jni_l.so \
+    device/starship-common/apps/lib/com.google.android.googlequicksearchbox-2/libvcdecoder_jni.so:system/app-lib/libvcdecoder_jni.so 
 
 
 DEVICE_PACKAGE_OVERLAYS := \
@@ -56,6 +51,4 @@ DEVICE_PACKAGE_OVERLAYS := \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.supplicant_scan_interval=180
-
-
 

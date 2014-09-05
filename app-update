@@ -8,45 +8,44 @@ mount -o remount,rw /system;
 rm -rf /system/app/Apollo.apk
 rm -rf /system/app/CMFileManager.apk
 rm -rf /system/app/Term.apk
-rm -rf /system/app/Books.apk
 rm -rf /system/app/Calendar.apk
 rm -rf /system/app/CMWallpapers.apk
-#rm -rf /system/app/CMHome.apk
+rm -rf /system/app/CMHome.apk
 rm -rf /system/app/DeskClock.apk
 rm -rf /system/app/Gmail2.apk
 rm -rf /system/app/GenieWidget.apk
 rm -rf /system/app/Hangouts.apk
 rm -rf /system/app/Maps.apk
-#rm -rf /system/app/Music2.apk
+rm -rf /system/app/Music2.apk
 rm -rf /system/app/Magazines.apk
-rm -rf /system/app/PlayGames.apk
 rm -rf /system/app/PlusOne.apk
 rm -rf /system/app/Street.apk
 rm -rf /system/app/Videos.apk
 rm -rf /system/app/YouTube.apk
+rm -rf /system/priv-app/Trebuchet.apk
+rm -rf /system/priv-app/CMUpdater.apk
+rm -rf /system/priv-app/VoiceDialer.apk
+
 
 mkdir /data/app
-cp /system/app/com.google.android.gms-1.apk /data/app/com.google.android.gms-1.apk
-cp /system/app/com.google.android.music-2.apk /data/app/com.google.android.music-2.apk
+cp /system/priv-app/com.google.android.googlequicksearchbox-2.apk /data/app/com.google.android.googlequicksearchbox-2.apk
 cp /system/app/com.google.android.calendar-1.apk /data/app/com.google.android.calendar-1.apk
-cp /system/app/com.android.chrome-1.apk /data/app/com.android.chrome-1.apk
+cp /system/priv-app/com.google.android.launcher-2.apk /data/app/com.google.android.launcher-2.apk
 
-rm -rf /system/app/com.google.android.gms-1.apk
+
 rm -rf /system/app/com.google.android.calendar-1.apk
-rm -rf /system/app/com.android.chrome-1.apk
-rm -rf /system/app/com.google.android.music-2.apk
+rm -rf /system/priv-app/com.google.android.googlequicksearchbox-2.apk
+rm -rf /system/priv-app/com.google.android.launcher-2.apk
 
-mkdir /data/app-libs/com.google.android.gms-1
-cp /system/app-libs/libAppDataSearch.so /data/app-libs/com.google.android.gms-1/libAppDataSearch.so
-cp /system/app-libs/libconscrypt_gmscore_jni.so /data/app-libs/com.google.android.gms-1/libconscrypt_gmscore_jni.so
-cp /system/app-libs/libgames_rtmp_jni.so /data/app-libs/com.google.android.gms-1/libgames_rtmp_jni.so
-cp /system/app-libs/libgcastv2_base.so /data/app-libs/com.google.android.gms-1/libgcastv2_base.so
-cp /system/app-libs/libgcastv2_support.so /data/app-libs/com.google.android.gms-1/libgcastv2_support.so
-cp /system/app-libs/libgmscore.so /data/app-libs/com.google.android.gms-1/libgmscore.so
-cp /system/app-libs/libjgcastservice.so /data/app-libs/com.google.android.gms-1/libjgcastservice.so
-cp /system/app-libs/libocrclient.so /data/app-libs/com.google.android.gms-1/libocrclient.so
+mkdir /data/app-lib/com.google.android.launcher-2
 
-mkdir /data/app-libs/com.android.chrome-1
-cp /system/app-libs/libchrome.1985.131.so /data/app-libs/com.android.chrome-1/libchrome.1985.131.so
+mkdir /data/app-lib/com.google.android.googlequicksearchbox-2
+cp /system/app-lib/libgoogle_hotword_jni.so /data/app-lib/com.google.android.googlequicksearchbox-2/libgoogle_hotword_jni.so
+cp /system/app-lib/libgoogle_recognizer_jni_l.so /data/app-lib/com.google.android.googlequicksearchbox-2/libgoogle_recognizer_jni_l.so
+cp /system/app-lib/libvcdecoder_jni.so /data/app-lib/com.google.android.googlequicksearchbox-2/libvcdecoder_jni.so
+
+cp /system/app-lib/libgoogle_hotword_jni.so /system/lib/libgoogle_hotword_jni.so
+cp /system/app-lib/libgoogle_recognizer_jni_l.so /system/lib/libgoogle_recognizer_jni_l.so
+cp /system/app-lib/libvcdecoder_jni.so /system/lib/libvcdecoder_jni.so
 
 mount -o remount,ro /system;
