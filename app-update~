@@ -11,7 +11,6 @@ rm -rf /system/app/Term.apk
 rm -rf /system/app/Calendar.apk
 rm -rf /system/app/CMWallpapers.apk
 rm -rf /system/app/CMHome.apk
-rm -rf /system/app/DeskClock.apk
 rm -rf /system/app/Gmail2.apk
 rm -rf /system/app/GenieWidget.apk
 rm -rf /system/app/Hangouts.apk
