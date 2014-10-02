@@ -24,10 +24,6 @@ PRODUCT_COPY_FILES += \
     device/starship-common/app-update:system/etc/init.d/app-update \
     device/starship-common/cleanup:system/etc/init.d/cleanup
 
-#Bootanimation
-PRODUCT_COPY_FILES += \
-    device/starship-common/bootanimation.zip:system/media/bootanimation.zip
-
 #Apps
 PRODUCT_COPY_FILES += \
     device/starship-common/apps/app/com.google.android.launcher-1.apk:system/priv-app/com.google.android.launcher-1.apk \
