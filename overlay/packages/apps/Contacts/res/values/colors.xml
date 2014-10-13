@@ -40,7 +40,7 @@
     <color name="action_bar_background">#e6e6e6</color>
 
     <!-- Color of the background of the action bar when highlighted (ie. pressed, focused) -->
-    <color name="action_bar_background_highlight">#cecece</color>
+    <color name="action_bar_background_highlight">#67cccc</color>
 
     <!-- Color of the text for buttons in the action bar  -->
     <color name="action_bar_button_text_color">#FFFFFF</color>
@@ -51,7 +51,7 @@
     <!-- New Colors for Theme Chooser to be compatible -->
     <color name="account_container">#eeeeee</color>
     <color name="call_detail_photo_bg">#7f000000</color>
-    <color name="call_log_divider">#55ffffff</color>
+    <color name="call_log_divider">#5567cccc</color>
     <color name="detail_tab_carousel_tab_label_background_color">#7f000000</color>
     <color name="photo_backdrop">#000000</color>
     <color name="photo_container">#4cffffff</color>
