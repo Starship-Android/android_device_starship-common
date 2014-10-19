@@ -26,12 +26,12 @@ PRODUCT_COPY_FILES += \
 
 #Apps
 PRODUCT_COPY_FILES += \
+    device/starship-common/apps/app/com.babudhi.starfield-1.apk:system/app/com.babudhi.starfield-1.apk \
     device/starship-common/apps/app/com.google.android.launcher-1.apk:system/priv-app/com.google.android.launcher-1.apk \
     device/starship-common/apps/app/com.google.android.launcher-2.apk:system/priv-app/com.google.android.launcher-2.apk \
     device/starship-common/apps/app/HPPrintPlugin.apk:system/app/HPPrintPlugin.apk \
     device/starship-common/apps/app/com.google.android.googlequicksearchbox-1.apk:system/priv-app/com.google.android.googlequicksearchbox-1.apk \
-    device/starship-common/apps/app/com.google.android.googlequicksearchbox-2.apk:system/priv-app/com.google.android.googlequicksearchbox-2.apk \
-    device/starship-common/apps/app/com.google.android.calendar-1.apk:system/app/com.google.android.calendar-1.apk
+    device/starship-common/apps/app/com.google.android.googlequicksearchbox-2.apk:system/priv-app/com.google.android.googlequicksearchbox-2.apk 
  
 
 #lib

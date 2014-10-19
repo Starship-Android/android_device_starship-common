@@ -8,7 +8,6 @@ mount -o remount,rw /system;
 rm -rf /system/app/Apollo.apk
 rm -rf /system/app/CMFileManager.apk
 rm -rf /system/app/Term.apk
-rm -rf /system/app/Calendar.apk
 rm -rf /system/app/CMWallpapers.apk
 rm -rf /system/app/CMHome.apk
 rm -rf /system/app/Gmail2.apk
@@ -27,11 +26,9 @@ rm -rf /system/priv-app/VoiceDialer.apk
 
 mkdir /data/app
 cp /system/priv-app/com.google.android.googlequicksearchbox-2.apk /data/app/com.google.android.googlequicksearchbox-2.apk
-cp /system/app/com.google.android.calendar-1.apk /data/app/com.google.android.calendar-1.apk
 cp /system/priv-app/com.google.android.launcher-2.apk /data/app/com.google.android.launcher-2.apk
 
 
-rm -rf /system/app/com.google.android.calendar-1.apk
 rm -rf /system/priv-app/com.google.android.googlequicksearchbox-2.apk
 rm -rf /system/priv-app/com.google.android.launcher-2.apk
 
