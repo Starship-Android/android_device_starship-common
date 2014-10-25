@@ -30,15 +30,13 @@ PRODUCT_COPY_FILES += \
     device/starship-common/apps/app/com.google.android.launcher-1.apk:system/priv-app/com.google.android.launcher-1.apk \
     device/starship-common/apps/app/com.google.android.launcher-2.apk:system/priv-app/com.google.android.launcher-2.apk \
     device/starship-common/apps/app/HPPrintPlugin.apk:system/app/HPPrintPlugin.apk \
-    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1.apk:system/priv-app/com.google.android.googlequicksearchbox-1.apk \
-    device/starship-common/apps/app/com.google.android.googlequicksearchbox-2.apk:system/priv-app/com.google.android.googlequicksearchbox-2.apk 
- 
+    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1.apk:system/priv-app/com.google.android.googlequicksearchbox-1.apk 
 
 #lib
 PRODUCT_COPY_FILES += \
-    device/starship-common/apps/lib/com.google.android.googlequicksearchbox-2/libgoogle_hotword_jni.so:system/app-lib/libgoogle_hotword_jni.so \
-    device/starship-common/apps/lib/com.google.android.googlequicksearchbox-2/libgoogle_recognizer_jni_l.so:system/app-lib/libgoogle_recognizer_jni_l.so \
-    device/starship-common/apps/lib/com.google.android.googlequicksearchbox-2/libvcdecoder_jni.so:system/app-lib/libvcdecoder_jni.so 
+    device/starship-common/apps/lib/com.google.android.googlequicksearchbox/libgoogle_hotword_jni.so:system/app-lib/libgoogle_hotword_jni.so \
+    device/starship-common/apps/lib/com.google.android.googlequicksearchbox/libgoogle_recognizer_jni_l.so:system/app-lib/libgoogle_recognizer_jni_l.so \
+    device/starship-common/apps/lib/com.google.android.googlequicksearchbox/libvcdecoder_jni.so:system/app-lib/libvcdecoder_jni.so 
 
 
 DEVICE_PACKAGE_OVERLAYS := \

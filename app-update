@@ -23,22 +23,11 @@ rm -rf /system/priv-app/Trebuchet.apk
 rm -rf /system/priv-app/CMUpdater.apk
 rm -rf /system/priv-app/VoiceDialer.apk
 
-
+# Noe Launcher
 mkdir /data/app
-cp /system/priv-app/com.google.android.googlequicksearchbox-2.apk /data/app/com.google.android.googlequicksearchbox-2.apk
-cp /system/priv-app/com.google.android.launcher-2.apk /data/app/com.google.android.launcher-2.apk
-
-
-rm -rf /system/priv-app/com.google.android.googlequicksearchbox-2.apk
-rm -rf /system/priv-app/com.google.android.launcher-2.apk
-
 mkdir /data/app-lib/com.google.android.launcher-2
-
-mkdir /data/app-lib/com.google.android.googlequicksearchbox-2
-cp /system/app-lib/libgoogle_hotword_jni.so /data/app-lib/com.google.android.googlequicksearchbox-2/libgoogle_hotword_jni.so
-cp /system/app-lib/libgoogle_recognizer_jni_l.so /data/app-lib/com.google.android.googlequicksearchbox-2/libgoogle_recognizer_jni_l.so
-cp /system/app-lib/libvcdecoder_jni.so /data/app-lib/com.google.android.googlequicksearchbox-2/libvcdecoder_jni.so
-
+cp /system/priv-app/com.google.android.launcher-2.apk /data/app/com.google.android.launcher-2.apk
+rm -rf /system/priv-app/com.google.android.launcher-2.apk
 cp /system/app-lib/libgoogle_hotword_jni.so /system/lib/libgoogle_hotword_jni.so
 cp /system/app-lib/libgoogle_recognizer_jni_l.so /system/lib/libgoogle_recognizer_jni_l.so
 cp /system/app-lib/libvcdecoder_jni.so /system/lib/libvcdecoder_jni.so
