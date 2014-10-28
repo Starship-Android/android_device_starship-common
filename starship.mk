@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS := \
     device/starship-common/overlay
 
+DEVICE_PACKAGE_OVERLAYS := device/starship-common/overlay
 
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.supplicant_scan_interval=180
