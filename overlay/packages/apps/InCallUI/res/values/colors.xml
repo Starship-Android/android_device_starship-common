@@ -47,7 +47,7 @@
     <color name="dialpad_digits_text_color">#67cccc</color>
 
     <!-- Background color of dialpad -->
-    <color name="background_dialpad">#ffffff</color>
+    <color name="background_dialpad">#2a2a2a</color>
 
     <!-- Pressed color of dialpad buttons -->
     <color name="background_dialpad_pressed">#ececec</color>
@@ -59,7 +59,7 @@
     <color name="actionbar_background_color">#3B77E7</color>
 
     <!-- Secondary color of dialpad text (used for the letters corresponding to each digit -->
-    <color name="dialpad_secondary_text_color">#8b8b8b</color>
+    <color name="dialpad_secondary_text_color">#67cccc</color>
 
     <!-- Translucent shadow color -->
     <color name="translucent_shadow">#33999999</color>
