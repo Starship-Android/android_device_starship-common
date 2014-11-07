@@ -30,10 +30,23 @@ PRODUCT_COPY_FILES += \
     device/starship-common/apps/app/com.google.android.launcher-1.apk:system/priv-app/com.google.android.launcher-1.apk \
     device/starship-common/apps/app/com.google.android.launcher-2.apk:system/priv-app/com.google.android.launcher-2.apk \
     device/starship-common/apps/app/HPPrintPlugin.apk:system/app/HPPrintPlugin.apk \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1.apk:system/app/com.google.android.GoogleCamera-1.apk \
     device/starship-common/apps/app/com.google.android.googlequicksearchbox-1.apk:system/priv-app/com.google.android.googlequicksearchbox-1.apk 
 
 #lib
 PRODUCT_COPY_FILES += \
+    device/starship-common/apps/lib/com.google.android.GoogleCamera/libgcam.so:system/lib/libgcam.so \
+    device/starship-common/apps/lib/com.google.android.GoogleCamera/libgcam_swig_jni.so:system/lib/libgcam_swig_jni.so \
+    device/starship-common/apps/lib/com.google.android.GoogleCamera/libjni_jpegutil.so:system/lib/libjni_jpegutil.so \
+    device/starship-common/apps/lib/com.google.android.GoogleCamera/libjni_tinyplanet.so:system/lib/libjni_tinyplanet.so \
+    device/starship-common/apps/lib/com.google.android.GoogleCamera/libjpeg.so:system/lib/libjpeg.so \
+    device/starship-common/apps/lib/com.google.android.GoogleCamera/liblightcycle.so:system/lib/liblightcycle.so \
+    device/starship-common/apps/lib/com.google.android.GoogleCamera/libnativehelper_compat_libc++.so:system/lib/libnativehelper_compat_libc++.so \
+    device/starship-common/apps/lib/com.google.android.GoogleCamera/librefocus.so:system/lib/librefocus.so \
+    device/starship-common/apps/lib/com.google.android.GoogleCamera/librs.layered_filter_f32.so:system/lib/librs.layered_filter_f32.so \
+    device/starship-common/apps/lib/com.google.android.GoogleCamera/librs.layered_filter_fast_f32.so:system/lib/librs.layered_filter_fast_f32.so \
+    device/starship-common/apps/lib/com.google.android.GoogleCamera/librsjni.so:system/lib/librsjni.so \
+    device/starship-common/apps/lib/com.google.android.GoogleCamera/libRSSupport.so:system/lib/libRSSupport.so \
     device/starship-common/apps/lib/com.google.android.googlequicksearchbox/libgoogle_hotword_jni.so:system/app-lib/libgoogle_hotword_jni.so \
     device/starship-common/apps/lib/com.google.android.googlequicksearchbox/libgoogle_recognizer_jni_l.so:system/app-lib/libgoogle_recognizer_jni_l.so \
     device/starship-common/apps/lib/com.google.android.googlequicksearchbox/libvcdecoder_jni.so:system/app-lib/libvcdecoder_jni.so 

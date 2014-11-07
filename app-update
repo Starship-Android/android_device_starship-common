@@ -8,6 +8,7 @@ mount -o remount,rw /system;
 rm -rf /system/app/Apollo.apk
 rm -rf /system/app/CMFileManager.apk
 rm -rf /system/app/Term.apk
+rm -rf /system/app/Camera2.apk
 rm -rf /system/app/CMWallpapers.apk
 rm -rf /system/app/CMHome.apk
 rm -rf /system/app/Gmail2.apk
