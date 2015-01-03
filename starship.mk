@@ -27,29 +27,30 @@ PRODUCT_COPY_FILES += \
 #Apps
 PRODUCT_COPY_FILES += \
     device/starship-common/apps/app/com.babudhi.starfield-1.apk:system/app/com.babudhi.starfield-1.apk \
-    device/starship-common/apps/app/com.google.android.launcher-1.apk:system/priv-app/com.google.android.launcher-1.apk \
-    device/starship-common/apps/app/com.google.android.launcher-2.apk:system/priv-app/com.google.android.launcher-2.apk \
-    device/starship-common/apps/app/HPPrintPlugin.apk:system/app/HPPrintPlugin.apk \
-    device/starship-common/apps/app/com.google.android.GoogleCamera-1.apk:system/app/com.google.android.GoogleCamera-1.apk \
-    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1.apk:system/priv-app/com.google.android.googlequicksearchbox-1.apk 
+    device/starship-common/apps/app/com.google.android.launcher-1/base.apk:system/priv-app/com.google.android.launcher-1/com.google.android.launcher-1.apk \
+    device/starship-common/apps/app/com.google.android.launcher-2/base.apk:system/priv-app/com.google.android.launcher-2/com.google.android.launcher-2.apk \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/base.apk:system/app/com.google.android.GoogleCamera-1/com.google.android.GoogleCamera-1.apk \
+    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/base.apk:system/priv-app/com.google.android.googlequicksearchbox-1/com.google.android.googlequicksearchbox-1.apk 
+
+#    device/starship-common/apps/app/HPPrintPlugin.apk:system/app/HPPrintPlugin.apk \
 
 #lib
 PRODUCT_COPY_FILES += \
-    device/starship-common/apps/lib/com.google.android.GoogleCamera/libgcam.so:system/lib/libgcam.so \
-    device/starship-common/apps/lib/com.google.android.GoogleCamera/libgcam_swig_jni.so:system/lib/libgcam_swig_jni.so \
-    device/starship-common/apps/lib/com.google.android.GoogleCamera/libjni_jpegutil.so:system/lib/libjni_jpegutil.so \
-    device/starship-common/apps/lib/com.google.android.GoogleCamera/libjni_tinyplanet.so:system/lib/libjni_tinyplanet.so \
-    device/starship-common/apps/lib/com.google.android.GoogleCamera/libjpeg.so:system/lib/libjpeg.so \
-    device/starship-common/apps/lib/com.google.android.GoogleCamera/liblightcycle.so:system/lib/liblightcycle.so \
-    device/starship-common/apps/lib/com.google.android.GoogleCamera/libnativehelper_compat_libc++.so:system/lib/libnativehelper_compat_libc++.so \
-    device/starship-common/apps/lib/com.google.android.GoogleCamera/librefocus.so:system/lib/librefocus.so \
-    device/starship-common/apps/lib/com.google.android.GoogleCamera/librs.layered_filter_f32.so:system/lib/librs.layered_filter_f32.so \
-    device/starship-common/apps/lib/com.google.android.GoogleCamera/librs.layered_filter_fast_f32.so:system/lib/librs.layered_filter_fast_f32.so \
-    device/starship-common/apps/lib/com.google.android.GoogleCamera/librsjni.so:system/lib/librsjni.so \
-    device/starship-common/apps/lib/com.google.android.GoogleCamera/libRSSupport.so:system/lib/libRSSupport.so \
-    device/starship-common/apps/lib/com.google.android.googlequicksearchbox/libgoogle_hotword_jni.so:system/app-lib/libgoogle_hotword_jni.so \
-    device/starship-common/apps/lib/com.google.android.googlequicksearchbox/libgoogle_recognizer_jni_l.so:system/app-lib/libgoogle_recognizer_jni_l.so \
-    device/starship-common/apps/lib/com.google.android.googlequicksearchbox/libvcdecoder_jni.so:system/app-lib/libvcdecoder_jni.so 
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libgcam.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libgcam.so: \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libgcam_swig_jni.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libgcam_swig_jni.so \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libjni_jpegutil.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libjni_jpegutil.so \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libjni_tinyplanet.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libjni_tinyplanet.so \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libjpeg.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libjpeg.so \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/liblightcycle.so:system/app/com.google.android.GoogleCamera-1/lib/arm/liblightcycle.so \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libnativehelper_compat_libc++.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libnativehelper_compat_libc++.so \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/librefocus.so:system/app/com.google.android.GoogleCamera-1/lib/arm/librefocus.so \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/librs.layered_filter_f32.so:system/app/com.google.android.GoogleCamera-1/lib/arm/librs.layered_filter_f32.so \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/librs.layered_filter_fast_f32.so:system/app/com.google.android.GoogleCamera-1/lib/arm/librs.layered_filter_fast_f32.so \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/librsjni.so:system/app/com.google.android.GoogleCamera-1/lib/arm/librsjni.so \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libRSSupport.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libRSSupport.so \
+    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_hotword_jni.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_hotword_jni.so \
+    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_recognizer_jni_l.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_recognizer_jni_l.so \
+    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so \ 
 
 
 DEVICE_PACKAGE_OVERLAYS := \

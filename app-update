@@ -23,11 +23,16 @@ rm -rf /system/priv-app/VoiceDialer.apk
 
 # Now Launcher
 mkdir /data/app
-mkdir /data/app-lib/com.google.android.launcher-2
-cp /system/priv-app/com.google.android.launcher-2.apk /data/app/com.google.android.launcher-2.apk
-rm -rf /system/priv-app/com.google.android.launcher-2.apk
-cp /system/app-lib/libgoogle_hotword_jni.so /system/lib/libgoogle_hotword_jni.so
-cp /system/app-lib/libgoogle_recognizer_jni_l.so /system/lib/libgoogle_recognizer_jni_l.so
-cp /system/app-lib/libvcdecoder_jni.so /system/lib/libvcdecoder_jni.so
+mkdir /system/app/com.google.android.calendar-1/lib
+mkdir /data/app/com.google.android.launcher-2
+mkdir /data/app/com.google.android.launcher-2/lib
+#mkdir /system/priv-app/com.google.android.launcher-2/lib
+cp /system/priv-app/com.google.android.launcher-2/com.google.android.launcher-2.apk /data/app/com.google.android.launcher-2/com.google.android.launcher-2.apk
+#cp /system/priv-app/com.google.android.launcher-2.apk /data/app/com.google.android.launcher-2.apk
+#cp /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_hotword_jni.so /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_hotword_jni.so
+#cp /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_recognizer_jni_l.so /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_recognizer_jni_l.so
+#cp /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so
+rm -rf /system/priv-app/com.google.android.launcher-2/com.google.android.launcher-2.apk
+rm -rf /system/priv-app/com.google.android.launcher-2
 
 mount -o remount,ro /system;
