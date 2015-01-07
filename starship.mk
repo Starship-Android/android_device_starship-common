@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
 
 #lib
 PRODUCT_COPY_FILES += \
-    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libgcam.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libgcam.so: \
+    device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libgcam.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libgcam.so \
     device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libgcam_swig_jni.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libgcam_swig_jni.so \
     device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libjni_jpegutil.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libjni_jpegutil.so \
     device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libjni_tinyplanet.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libjni_tinyplanet.so \
