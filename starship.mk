@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
     device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libRSSupport.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libRSSupport.so \
     device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_hotword_jni.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_hotword_jni.so \
     device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_recognizer_jni_l.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_recognizer_jni_l.so \
-    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so \ 
+    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so  
 
 
 DEVICE_PACKAGE_OVERLAYS := \
