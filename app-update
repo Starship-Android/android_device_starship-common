@@ -5,33 +5,33 @@
 
 mount -o remount,rw /system;
 
-rm -rf /system/app/Apollo.apk
-rm -rf /system/app/CMFileManager.apk
-rm -rf /system/app/Term.apk
-rm -rf /system/app/Camera2.apk
-rm -rf /system/app/CMWallpapers.apk
-rm -rf /system/app/CMHome.apk
-rm -rf /system/app/Gmail2.apk
-rm -rf /system/app/GenieWidget.apk
-rm -rf /system/app/Magazines.apk
-rm -rf /system/app/PlusOne.apk
-rm -rf /system/app/Street.apk
-rm -rf /system/app/Videos.apk
-rm -rf /system/priv-app/Trebuchet.apk
-rm -rf /system/priv-app/CMUpdater.apk
-rm -rf /system/priv-app/VoiceDialer.apk
+rm -rf /system/app/Calendar
+rm -rf /system/app/CMFileManager/CMFileManager.apk
+rm -rf /system/app/Camera2/Camera2.apk
+rm -rf /system/app/CMWallpapers/CMWallpapers.apk
+#rm -rf /system/app/CMHome
+rm -rf /system/app/Gmail2/Gmail2.apk
+rm -rf /system/app/Music2/Music2.apk
+rm -rf /system/app/Magazines/Magazines.apk
+rm -rf /system/app/PlusOne/PlusOne.apk
+rm -rf /system/app/Videos/Videos.apk
+rm -rf /system/priv-app/CMUpdater/CMUpdater.apk
+rm -rf /system/priv-app/VoiceDialer
 
-# Now Launcher
+# Remove Bootanimation
+rm -rf /system/media/bootanimation.zip
+
+# Launcher
 mkdir /data/app
 mkdir /system/app/com.google.android.calendar-1/lib
 mkdir /data/app/com.google.android.launcher-2
 mkdir /data/app/com.google.android.launcher-2/lib
-#mkdir /system/priv-app/com.google.android.launcher-2/lib
+mkdir /system/priv-app/com.google.android.launcher-2/lib
 cp /system/priv-app/com.google.android.launcher-2/com.google.android.launcher-2.apk /data/app/com.google.android.launcher-2/com.google.android.launcher-2.apk
-#cp /system/priv-app/com.google.android.launcher-2.apk /data/app/com.google.android.launcher-2.apk
-#cp /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_hotword_jni.so /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_hotword_jni.so
-#cp /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_recognizer_jni_l.so /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_recognizer_jni_l.so
-#cp /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so
+cp /system/priv-app/com.google.android.launcher-2.apk /data/app/com.google.android.launcher-2.apk
+cp /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_hotword_jni.so /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_hotword_jni.so
+cp /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_recognizer_jni_l.so /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_recognizer_jni_l.so
+cp /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so /system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so
 rm -rf /system/priv-app/com.google.android.launcher-2/com.google.android.launcher-2.apk
 rm -rf /system/priv-app/com.google.android.launcher-2
 
