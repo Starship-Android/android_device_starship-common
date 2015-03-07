@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-/**
- * Copyright (c) 2009, The Android Open Source Project
+/*
+ * Copyright (C) 2011 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *     http://www.apache.org/licenses/LICENSE-2.0
+ *      http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -17,8 +17,12 @@
  */
 -->
 <resources>
-    
-    <bool name="def_install_non_market_apps">false</bool>
-    <bool name="def_package_verifier_enable">true</bool>
+    <!-- the background color used for unread broadcasts -->
+    <color name="unread_bgcolor">#ffffffff</color>
+    <color name="read_bgcolor">#ffeeeeee</color>
+    <color name="notification_color">#FF54a2c6</color><!-- Orange 800 -->
 
+    <color name="cell_broadcast_color_primary">#ff263238</color>
+    <color name="cell_broadcast_color_primary_dark">#ff21272b</color>
 </resources>
+
