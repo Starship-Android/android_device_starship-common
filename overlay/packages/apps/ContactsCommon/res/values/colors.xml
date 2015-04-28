@@ -20,7 +20,7 @@
 
     <color name="focus_color">#4467cccc</color>
 
-    <!-- Color of ripples used by Theme.Material. Taken from res/values/colors_material.xml -->
+    <!-- Color of ripples used for views with dark backgrounds -->
     <color name="ripple_material_dark">#20f3f3f3</color>
 
     <!-- Divider color for header separator -->
@@ -46,6 +46,9 @@
     <!-- Color of image view placeholder. -->
     <color name="image_placeholder">#8e8e8e</color>
 
+    <!-- Primary text color in the Phone app -->
+    <color name="dialtacts_primary_text_color">#333333</color>
+
     <!-- Secondary text color in the Phone app -->
     <color name="dialtacts_secondary_text_color">#737373</color>
 
@@ -70,13 +73,13 @@
     <array name="letter_tile_colors">
         <item>#35667d</item>
         <item>#54a2c6</item>
-        <item>#67cccc</item>
+        <item>#54a2c6</item>
         <item>#35667d</item>
         <item>#54a2c6</item>
-        <item>#67cccc</item>
+        <item>#54a2c6</item>
         <item>#54a2c6</item>
         <item>#67cccc</item>
-        <item>#67cccc</item>
+        <item>#009688</item>
         <item>#54a2c6</item>
         <item>#54a2c6</item>
         <item>#35667d</item>
@@ -91,17 +94,18 @@
         <item>#54a2c6</item>
         <item>#54a2c6</item>
         <item>#35667d</item>
-        <item>#67cccc</item>
+        <item>#35667d</item>
         <item>#54a2c6</item>
         <item>#54a2c6</item>
-        <item>#67cccc</item>
+        <item>#006064</item>
         <item>#101a1f</item>
         <item>#54a2c6</item>
         <item>#35667d</item>
-        <item>#67cccc</item>
-        <item>#67cccc</item>
+        <item>#54a2c6</item>
+        <item>#54a2c6</item>
         <item>#424242</item>
     </array>
+
 
     <!-- The default color used for tinting photos when no color can be extracted via Palette,
             this is Blue Grey 500 -->

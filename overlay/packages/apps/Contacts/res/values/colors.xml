@@ -22,29 +22,29 @@
     <color name="background_social_updates">#ffeeeeee</color>
 
     <!-- TODO: remove these colors once we delete the group code (b/16522929) -->
-    <color name="action_bar_background">#35667d</color>
-    <color name="action_bar_background_highlight">#54a2c6</color>
-    <color name="action_bar_button_text_color">#f3f3f3</color>
+    <color name="action_bar_background">#0288d1</color>
+    <color name="action_bar_background_highlight">#cecece</color>
+    <color name="action_bar_button_text_color">#FFFFFF</color>
 
     <color name="actionbar_background_color">@color/primary_color</color>
     <color name="actionbar_background_color_dark">@color/primary_color_dark</color>
 
-    <color name="primary_color_dark">#35667d</color>
-    <color name="primary_color">#35667d</color>
+    <color name="primary_color_dark">#0277bd</color>
+    <color name="primary_color">#0288d1</color>
 
     <!-- Color of the selected tab underline -->
-    <color name="contacts_accent_color">#54a2c6</color>
+    <color name="contacts_accent_color">#FFFFFF</color>
 
     <color name="floating_action_button_icon_color">@color/contacts_accent_color</color>
 
-    <!-- Color of the separator between entries in an ExpandingEntryCardView -->
-    <color name="expanding_entry_card_item_separator_color">#484848</color>
+    <!-- Horizontal separator line should be 12% dark in the light theme. -->
+    <color name="divider_line_color_light">#e0e0e0</color>
 
     <!-- Color of the text on an ExpandingEntryCard button -->
     <color name="expanding_entry_card_button_text_color">@android:color/black</color>
 
     <!-- Background color for an ExpandingEntryCard -->
-    <color name="expanding_entry_card_background_color">#f3f3f3</color>
+    <color name="expanding_entry_card_background_color">#ffffff</color>
 
     <!-- Color of the margin for cards -->
     <color name="card_margin_color">#f4f4f4</color>
@@ -52,10 +52,16 @@
     <color name="call_arrow_green">#2aad6f</color>
     <color name="call_arrow_red">#ff2e58</color>
 
-    <color name="contact_all_list_background_color">#f3f3f3</color>
-    <color name="contact_favorites_list_background_color">#f3f3f3</color>
-    <color name="group_list_background_color">#f3f3f3</color>
+    <color name="contact_all_list_background_color">#FFFFFF</color>
+    <color name="contact_favorites_list_background_color">#FFFFFF</color>
+    <color name="group_list_background_color">#FFFFFF</color>
 
     <!-- Background color of pinned header items. -->
     <color name="list_item_pinned_header_color">@color/background_primary</color>
+
+    <!-- Color of the mime-type icons inside the editor. 50% black. -->
+    <color name="editor_icon_color">#7f7f7f</color>
+
+    <!-- Color of disabled text and unfocused hint text inside the contact editor. -->
+    <color name="editor_disabled_text_color">#989898</color>
 </resources>
