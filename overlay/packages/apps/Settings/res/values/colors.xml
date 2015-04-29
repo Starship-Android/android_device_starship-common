@@ -15,19 +15,19 @@
 -->
 
 <resources>
-    <color name="black">#000</color>
+    <color name="black">#484848</color>
     <color name="red">#F00</color>
 
-    <color name="material_empty_color_light">#FFCED7DB</color>
+    <color name="material_empty_color_light">#FFeeeeee</color>
 
     <color name="memory_used">#F00</color>
     <color name="memory_avail">@color/material_empty_color_light</color>
-    <color name="memory_apps_usage">#00796B</color>
-    <color name="memory_downloads">#3367D6</color>
-    <color name="memory_dcim">#0097A7</color>
-    <color name="memory_music">#689F38</color>
-    <color name="memory_cache">#283593</color>
-    <color name="memory_misc">#7B1FA2</color>
+    <color name="memory_apps_usage">#77831A</color>
+    <color name="memory_downloads">#476093</color>
+    <color name="memory_dcim">#793A7F</color>
+    <color name="memory_music">#8E562A</color>
+    <color name="memory_cache">#479392</color>
+    <color name="memory_misc">#7C3030</color>
     <color name="memory_user_light">#479392</color>
     <color name="memory_user_dark">#316665</color>
 
@@ -36,10 +36,10 @@
     <color name="crypt_keeper_clock_am_pm">#ff9a9a9a</color>
     <color name="crypt_keeper_password_background">#70606060</color>
 
-    <color name="divider_color">#20ffffff</color>
+    <color name="divider_color">#2067cccc</color>
     <color name="title_color">@android:color/holo_blue_light</color>
-    <color name="setup_divider_color_dark">#33ffffff</color>
-    <color name="setup_divider_color_light">#33000000</color>
+    <color name="setup_divider_color_dark">#3335667d</color>
+    <color name="setup_divider_color_light">#3335667d</color>
     <color name="setup_lock_pattern_view_regular_color_dark">#ffbdbdbd</color>
     <color name="setup_lock_pattern_view_regular_color_light">@color/lock_pattern_view_regular_color</color>
     <color name="setup_lock_pattern_view_success_color_dark">#ff84ffff</color>

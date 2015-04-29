@@ -73,13 +73,13 @@
     <array name="letter_tile_colors">
         <item>#35667d</item>
         <item>#54a2c6</item>
-        <item>#54a2c6</item>
+        <item>#67cccc</item>
         <item>#35667d</item>
         <item>#54a2c6</item>
-        <item>#54a2c6</item>
+        <item>#67cccc</item>
         <item>#54a2c6</item>
         <item>#67cccc</item>
-        <item>#009688</item>
+        <item>#67cccc</item>
         <item>#54a2c6</item>
         <item>#54a2c6</item>
         <item>#35667d</item>
@@ -94,15 +94,15 @@
         <item>#54a2c6</item>
         <item>#54a2c6</item>
         <item>#35667d</item>
-        <item>#35667d</item>
+        <item>#67cccc</item>
         <item>#54a2c6</item>
         <item>#54a2c6</item>
-        <item>#006064</item>
+        <item>#67cccc</item>
         <item>#101a1f</item>
         <item>#54a2c6</item>
         <item>#35667d</item>
-        <item>#54a2c6</item>
-        <item>#54a2c6</item>
+        <item>#67cccc</item>
+        <item>#67cccc</item>
         <item>#424242</item>
     </array>
 

@@ -123,7 +123,7 @@
     <!-- FaceLock -->
     <color name="facelock_spotlight_mask">#CC000000</color>
 
-    <color name="micro_text_light">#ffffff</color>
+    <color name="micro_text_light">#434343</color>
 
     <drawable name="notification_template_icon_bg">#3354a2c6</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>

@@ -91,7 +91,7 @@
     </style>
 
     <style name="DialpadTheme" parent="DialtactsTheme">
-        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorPrimary">#54a2c6</item>
     </style>
 
     <style name="DialtactsThemeWithoutActionBarOverlay" parent="DialtactsTheme">
@@ -128,8 +128,8 @@
     <style name="CallDetailActivityTheme" parent="DialtactsThemeWithoutActionBarOverlay">
         <item name="android:windowBackground">@color/background_dialer_results</item>
         <!-- CallLog -->
-        <item name="call_log_primary_background_color">#FFFFFF</item>
-        <item name="call_log_secondary_background_color">#FFFFFF</item>
+        <item name="call_log_primary_background_color">#f3f3f3</item>
+        <item name="call_log_secondary_background_color">#f3f3f3</item>
         <!-- VoicemailStatus -->
         <item name="call_log_voicemail_status_height">48dip</item>
         <item name="call_log_voicemail_status_background_color">#262626</item>
