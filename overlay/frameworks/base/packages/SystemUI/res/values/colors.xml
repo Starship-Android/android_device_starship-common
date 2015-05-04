@@ -32,7 +32,7 @@
     <drawable name="heads_up_notification_bg_pressed">#ff33B5E5</drawable>
     <color name="batterymeter_frame_color">#66FFFFFF</color><!-- 40% white -->
     <color name="batterymeter_charge_color">#FFFFFFFF</color>
-    <color name="batterymeter_bolt_color">#FFd6f409</color>
+    <color name="batterymeter_bolt_color">#FF54a2c6</color>
     <color name="qs_batterymeter_frame_color">#FFd6f409</color>
     <color name="system_primary_color">#ff011520</color><!-- blue grey 900 -->
     <color name="system_primary_color_translucent">#90011520</color><!-- blue grey 900 -->

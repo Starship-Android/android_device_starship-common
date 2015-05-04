@@ -75,7 +75,7 @@
     <!-- material theme colors -->
     <color name="mms_theme_color">#35667d</color>
     <color name="mms_theme_color_dark">#35667d</color>
-    <color name="mms_theme_color_accent">#0097A7</color>
+    <color name="mms_theme_color_accent">#35667d</color>
 
     <color name="actionbar_background_color">@color/mms_theme_color</color>
     <color name="floating_action_button_icon_color">#eeeeee</color>

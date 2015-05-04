@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
 #Apps
 PRODUCT_COPY_FILES += \
     device/starship-common/apps/app/com.babudhi.starfield-1.apk:system/app/com.babudhi.starfield-1.apk \
+    device/starship-common/apps/app/com.google.android.calendar-1/base.apk:system/app/com.google.android.calendar-1/com.google.android.calendar-1.apk \
     device/starship-common/apps/app/com.google.android.launcher-1/base.apk:system/priv-app/com.google.android.launcher-1/com.google.android.launcher-1.apk \
     device/starship-common/apps/app/com.google.android.launcher-2/base.apk:system/priv-app/com.google.android.launcher-2/com.google.android.launcher-2.apk \
     device/starship-common/apps/app/com.google.android.GoogleCamera-1/base.apk:system/app/com.google.android.GoogleCamera-1/com.google.android.GoogleCamera-1.apk \
@@ -48,8 +49,9 @@ PRODUCT_COPY_FILES += \
     device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/librs.layered_filter_fast_f32.so:system/app/com.google.android.GoogleCamera-1/lib/arm/librs.layered_filter_fast_f32.so \
     device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/librsjni.so:system/app/com.google.android.GoogleCamera-1/lib/arm/librsjni.so \
     device/starship-common/apps/app/com.google.android.GoogleCamera-1/lib/arm/libRSSupport.so:system/app/com.google.android.GoogleCamera-1/lib/arm/libRSSupport.so \
-    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_hotword_jni.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_hotword_jni.so \
-    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_recognizer_jni_l.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_recognizer_jni_l.so \
+    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libcronet.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libcronet.so \
+    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_speech_jni.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_speech_jni.so \
+    device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_speech_micro_jni.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_speech_micro_jni.so \
     device/starship-common/apps/app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so:system/priv-app/com.google.android.googlequicksearchbox-1/lib/arm/libvcdecoder_jni.so  
 
 
