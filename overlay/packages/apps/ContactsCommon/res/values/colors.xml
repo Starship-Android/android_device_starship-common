@@ -72,19 +72,19 @@
     -->
     <array name="letter_tile_colors">
         <item>#35667d</item>
-        <item>#54a2c6</item>
-        <item>#67cccc</item>
+        <item>#21404e</item>
+        <item>#21404e</item>
         <item>#35667d</item>
-        <item>#54a2c6</item>
-        <item>#67cccc</item>
-        <item>#54a2c6</item>
-        <item>#67cccc</item>
-        <item>#67cccc</item>
-        <item>#54a2c6</item>
-        <item>#54a2c6</item>
         <item>#35667d</item>
-        <item>#54a2c6</item>
-        <item>#54a2c6</item>
+        <item>#21404e</item>
+        <item>#21404e</item>
+        <item>#35667d</item>
+        <item>#35667d</item>
+        <item>#21404e</item>
+        <item>#21404e</item>
+        <item>#35667d</item>
+        <item>#35667d</item>
+        <item>#21404e</item>
     </array>
 
     <!-- Darker versions of letter_tile_colors, two shades darker. These colors are used
