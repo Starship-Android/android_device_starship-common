@@ -18,9 +18,9 @@
     <!--  Primary text color in the Dialer -->
     <color name="dialtacts_primary_text_color">#35667d</color>
     <!-- Secondary text color in the Dialer -->
-    <color name="dialtacts_secondary_text_color">#54a2c6</color>
+    <color name="dialtacts_secondary_text_color">#35667d</color>
     <color name="dialer_red_highlight_color">#7e041b</color>
-    <color name="dialer_green_highlight_color">#54a2c6</color>
+    <color name="dialer_green_highlight_color">#67cccc</color>
 
     <color name="setting_background_color">#8e8e8e</color>
     <color name="setting_button_color">#eee</color>
@@ -97,7 +97,7 @@
     <!-- Color for icons in the actionbar -->
     <color name="actionbar_icon_color">#f3f3f3</color>
 
-    <color name="dialer_dialpad_touch_tint">#3354a2c6</color>
+    <color name="dialer_dialpad_touch_tint">#3335667d</color>
 
     <color name="floating_action_button_touch_tint">#80f3f3f3</color>
 

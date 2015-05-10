@@ -19,7 +19,7 @@
     <color name="ampm_on">#ffffffff</color>
     <color name="time_text_color">#E6FFFFFF</color>
     <color name="ampm_text_color">#99FFFFFF</color>
-    <color name="screen_saver_color">#FF54a2c6</color>
+    <color name="screen_saver_color">#FF35667d</color>
     <color name="screen_saver_dim_color">#FF35667d</color>
     <color name="action_bar_button_text_color">#FFFFFF</color>
     <color name="dialog_gray">#28ffffff</color>
@@ -36,12 +36,12 @@
     <color name="blackish_selected">#0cf3f3f3</color>
     <color name="transparent">#00000000</color>
 
-    <color name="hot_pink">#54a2c6</color>
+    <color name="hot_pink">#35667d</color>
     <color name="hairline">#28f3f3f3</color>
     <color name="bright_foreground_light_disabled">#80000000</color>
 
     <color name="clock_white">#f3f3f3</color>
-    <color name="clock_gray">#B3ffffff</color>
+    <color name="clock_gray">#B38e8e8e</color>
 
     <!-- App icon color as default -->
     <color name="default_background">#35667d</color>

@@ -91,25 +91,25 @@
         for settings secondary activity colors. -->
     <array name="letter_tile_colors_dark">
         <item>#35667d</item>
-        <item>#54a2c6</item>
-        <item>#54a2c6</item>
+        <item>#21404e</item>
+        <item>#21404e</item>
         <item>#35667d</item>
-        <item>#67cccc</item>
-        <item>#54a2c6</item>
-        <item>#54a2c6</item>
-        <item>#67cccc</item>
-        <item>#101a1f</item>
-        <item>#54a2c6</item>
         <item>#35667d</item>
-        <item>#67cccc</item>
-        <item>#67cccc</item>
-        <item>#424242</item>
+        <item>#21404e</item>
+        <item>#21404e</item>
+        <item>#35667d</item>
+        <item>#35667d</item>
+        <item>#21404e</item>
+        <item>#21404e</item>
+        <item>#35667d</item>
+        <item>#35667d</item>
+        <item>#21404e</item>
     </array>
 
 
     <!-- The default color used for tinting photos when no color can be extracted via Palette,
             this is Blue Grey 500 -->
-    <color name="quickcontact_default_photo_tint_color">#54a2c6</color>
+    <color name="quickcontact_default_photo_tint_color">#35667d</color>
     <!-- The default secondary color when no color can be extracted via Palette,
             this is Blue Grey 700 -->
     <color name="quickcontact_default_photo_tint_color_dark">#35667d</color>
@@ -127,7 +127,7 @@
     <!-- Color for icons in the actionbar -->
     <color name="actionbar_icon_color">#f3f3f3</color>
     <!-- Darker version of the actionbar color. Used for the status bar and navigation bar colors. -->
-    <color name="actionbar_background_color_dark">#54a2c6</color>
+    <color name="actionbar_background_color_dark">#35667d</color>
 
     <color name="tab_ripple_color">@color/tab_accent_color</color>
     <color name="tab_accent_color">#f3f3f3</color>

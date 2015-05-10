@@ -18,7 +18,7 @@
 */
 -->
 <resources>
-    <drawable name="screen_background_light">#ffffffff</drawable>
+    <drawable name="screen_background_light">#fff3f3f3</drawable>
     <drawable name="screen_background_dark">#ff000000</drawable>
     <drawable name="status_bar_closed_default_background">#ff464646</drawable>
     <drawable name="status_bar_opened_default_background">#ff464646</drawable>
@@ -152,14 +152,14 @@
     <!-- Default user icon colors -->
     <color name="user_icon_1">#ff67cccc</color><!-- teal 500 -->
     <color name="user_icon_2">#ff35667d</color><!-- indigo 500 -->
-    <color name="user_icon_3">#ff35667d</color><!-- blue 500 -->
+    <color name="user_icon_3">#ff21404e</color><!-- blue 500 -->
     <color name="user_icon_4">#ff581340</color><!-- pink 500 -->
-    <color name="user_icon_5">#ff54a2c6</color><!-- green 500 -->
-    <color name="user_icon_6">#54a2c6</color><!-- light green 500 -->
+    <color name="user_icon_5">#ff35667d</color><!-- green 500 -->
+    <color name="user_icon_6">#35667d</color><!-- light green 500 -->
     <color name="user_icon_7">#67cccc</color><!-- orange 500 -->
     <color name="user_icon_8">#ff67cccc</color><!-- deep orange 500 -->
     <color name="user_icon_default_gray">#ff717171</color><!-- gray 500 -->
-    <color name="user_icon_default_white">#ff54a2c6</color><!-- white -->
+    <color name="user_icon_default_white">#fff3f3f3</color><!-- white -->
 
     <!-- Multi-sim sim colors -->
     <color name="Teal_700">#ff00796b</color>

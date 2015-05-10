@@ -91,7 +91,7 @@
     </style>
 
     <style name="DialpadTheme" parent="DialtactsTheme">
-        <item name="android:textColorPrimary">#54a2c6</item>
+        <item name="android:textColorPrimary">#35667d</item>
     </style>
 
     <style name="DialtactsThemeWithoutActionBarOverlay" parent="DialtactsTheme">
