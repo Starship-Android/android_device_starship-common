@@ -22,7 +22,7 @@
     <color name="dialer_red_highlight_color">#7e041b</color>
     <color name="dialer_green_highlight_color">#67cccc</color>
 
-    <color name="setting_background_color">#8e8e8e</color>
+    <color name="setting_background_color">#f3f3f3</color>
     <color name="setting_button_color">#eee</color>
 
     <!-- Color of the text describing an unconsumed missed call. -->
@@ -52,6 +52,9 @@
     <!-- Background color of new dialer activity -->
     <color name="background_dialer_light">#d8d8d8</color>
     <!-- Background color for search results and call details -->
+    <!-- Color for icons in the actionbar -->
+    <color name="actionbar_icon_color">#f3f3f3</color>
+
     <color name="background_dialer_results">#f3f3f3</color>
     <!-- Background color of dialer list items (contacts, call log entries) -->
     <color name="background_dialer_list_items">@color/background_dialer_light</color>
