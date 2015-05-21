@@ -52,9 +52,6 @@
     <!-- Background color of new dialer activity -->
     <color name="background_dialer_light">#d8d8d8</color>
     <!-- Background color for search results and call details -->
-    <!-- Color for icons in the actionbar -->
-    <color name="actionbar_icon_color">#f3f3f3</color>
-
     <color name="background_dialer_results">#f3f3f3</color>
     <!-- Background color of dialer list items (contacts, call log entries) -->
     <color name="background_dialer_list_items">@color/background_dialer_light</color>
